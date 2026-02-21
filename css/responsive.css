@@ -1,0 +1,140 @@
+/* ===== TABLET (768px - 1024px) ===== */
+@media screen and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+    
+    .diferenciais-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .areas-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .equipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ===== MOBILE (até 767px) ===== */
+@media screen and (max-width: 767px) {
+    /* Header */
+    .mobile-menu-btn {
+        display: flex;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: var(--white);
+        flex-direction: column;
+        transition: 0.3s;
+        padding: 40px;
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Hero */
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Seções */
+    section {
+        padding: 60px 0;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    /* Grids */
+    .diferenciais-grid,
+    .areas-grid,
+    .equipe-grid,
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Sobre */
+    .sobre-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .sobre-image {
+        order: -1;
+    }
+    
+    /* Contato */
+    .contato-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    /* WhatsApp */
+    .whatsapp-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* ===== MOBILE PEQUENO (até 480px) ===== */
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .diferenciais-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+}
