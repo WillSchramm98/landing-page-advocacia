@@ -1,4 +1,17 @@
-# Landing Page para Escritório de Advocacia
+## 📢 Aviso Importante
+
+Este é um **projeto de portfólio** desenvolvido para fins educacionais e de demonstração de habilidades.
+
+- 🎭 **Informações:** Todos os nomes, dados, depoimentos e conteúdos são **fictícios**
+- 📸 **Imagens:** As fotos utilizadas são de banco de imagens (Unsplash) e não representam pessoas reais
+- ⚖️ **Escritório:** "Mendes & Associados" é um nome fantasia criado para o projeto
+- 🎯 **Objetivo:** Demonstrar habilidades em HTML, CSS, JavaScript e design responsivo
+
+Qualquer semelhança com pessoas ou escritórios reais é mera coincidência.
+
+# 🚀 Landing Page para Escritório de Advocacia
+
+> **🌐 Acesse o site online:** [willschramm98.github.io/landing-page-advocacia](https://willschramm98.github.io/landing-page-advocacia)
 
 Site institucional desenvolvido para o escritório Mendes & Associados, com design moderno e responsivo.
 
